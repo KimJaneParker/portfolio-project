@@ -37,46 +37,49 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style/portfolio.css" />
-    <title>Document</title>
+    <meta name="description" content="Kimberley is a SheCodes student based in South Africa">
+    <title>Front-end develooper - Kimberley Parker</title>
   </head>
   <body>
      <div class="container">
             <nav class="d-flex justify-content-between">
-                <a href="/">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt=""/>
-        <img src="images/logo-small.png" class="logo d-block d-md-none" alt=""/> 
+                <a href="/" title="Homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="SheCodes logo"/>
+        <img src="images/logo-small.png" class="logo d-block d-md-none" alt="SheCodes logo"/> 
     </a>
         <ul>
             <li class="active">
-              <a href="/">  Home</a>
+              <a href="/" title="Homepage">Home</a>
             </li>
             <li>
-               <a href="/about.html"> About</a>
+               <a href="/about.html" title="About Kimberley">About</a>
             </li>
             <li>
-               <a href="/work.html"> Work</a>
+               <a href="/work.html" title="Kimberley's work">Work</a>
             </li>
             <li>
-              <a href="/contact.html">  Contact</a>
+              <a href="/contact.html" title="Contact Kimberley">Contact</a>
             </li>
         </ul>
     </nav> 
 </div>
-   <div class="hero">
+<div class="hero">
       <p>Hello, I am</p>
       <h1>Kimberley Parker</h1>
       <h2 class="mb-5">Front-end developer based in South Africa</h2>
       <div>
-        <a href="#" class="btn btn-branding"> Contact Me</a>
+        <a href="/contact.html" title="Contact me"
+        class="btn btn-branding"> Contact Me</a>
       </div>
+      
     </div>
     <p class="text-center m-5">
             Featured Project which my best projects be choice to show
           </p>
-    <div class="container">
+    <div class="container"> 
       <div class="row mb-5 ">
-        <div class="col d-none d-lg-block">
-         <img src="images/responsive.png" class="img-fluid responsive-image" alt="Yogurt"/>
+        <div class="col d-none d-lg-flex justify-content-center align-items-center">
+         <img src="images/responsive.png" class="img-fluid responsive-image" alt="Responsive project preview"/>
         </div>
         <div class="col">
           <div class="project-description">
@@ -87,7 +90,7 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-branding-outline"> Launch Project </a>
+          <a href="/work.html" class="btn btn-branding-outline"> Launch Project </a>
         </div>
         </div>
         </div>
@@ -101,11 +104,11 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-branding-outline"> Launch Project </a>
+          <a href="/work.html" class="btn btn-branding-outline"> Launch Project </a>
         </div>
         </div>
-        <div class="col d-none d-lg-block">
-         <img src="images/weather.png" class="img-fluid" alt="Weather"/>
+        <div class="col d-none d-lg-flex justify-content-center align-items-center">
+         <img src="images/weather.png" class="img-fluid" alt="Weather project preview"/>
         </div>
         </div>
         <div class="row mb-5">
@@ -121,40 +124,42 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-branding-outline"> Launch Project </a>
+          <a href="/work.html" class="btn btn-branding-outline"> Launch Project </a>
         </div>
         </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
            <div>
-            <h4> 
+            <h3> 
                 Work Inquiry
-            </h4>
+            </h3>
             <p class="text-muted">Let's work together</p>
         </div>
         <div>
-            <a href="" class="btn btn-branding">Let's talk here</a>
+            <a href="mailto:kimjane.parker" class="btn btn-branding">Let's talk here</a>
         </div>
     </div>
         <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:kimjane.parker@gmail.com" class="email-link">
+        <a href="mailto:kimjane.parker@gmail.com" class="email-link" title="Email Kimberley">
             kimjane.parker@gmail.com 
         </a>
        </div> 
        <div class="socail-links d-flex justify-content-center ">
-        <a href="mailto:kimjane.parker@gmail.com" target="_blank">
+        <a href="mailto:kimjane.parker@gmail.com" target="_blank" title="Email Link">
             <i class="fa-solid fa-envelope"> </i>
         </a>
-        <a href="https://www.linkedin.com/in/kimberley-parker-449a76217/" target="_blank">
+        <a href="https://www.linkedin.com/in/kimberley-parker-449a76217/" target="_blank" title="LinkedIn Profile">
             <i class="fa-brands fa-linkedin"> </i>
         </a>
-        <a href="https://github.com/KimJaneParker" target="_blank">
+        <a href="https://github.com/KimJaneParker" target="_blank" title="GitHub Profile">
             <i class="fa-brands fa-github"></i>
         </a>
         </div>
+        <p class="text-center mt-5">This project was coded buy Kimberley Parker, and it is 
+            <a href="https://github.com/KimJaneParker/portfolio-project">open-sourced</a>   </p>
       </footer>
-    </div>
+      </div>
   </body>
 </html>

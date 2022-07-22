@@ -40,6 +40,36 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Kimberley">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Kimberley's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Kimberley">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -53,7 +83,7 @@
               building the weather app and I'm currently working on my
               responsive project.
             </p>
-            <a href="#" class="btn btn-branding">View my project</a>
+            <a href="/work.html" class="btn btn-branding">View my project</a>
           </div>
         </div>
         <div class="col-6 d-none d-lg-block">
@@ -65,5 +95,37 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+           <div>
+            <h3> 
+                Work Inquiry
+            </h3>
+            <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+            <a href="mailto:kimjane.parker" class="btn btn-branding">Let's talk here</a>
+        </div>
+    </div>
+        <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:kimjane.parker@gmail.com" class="email-link" title="Email Kimberley">
+            kimjane.parker@gmail.com 
+        </a>
+       </div> 
+       <div class="socail-links d-flex justify-content-center ">
+        <a href="mailto:kimjane.parker@gmail.com" target="_blank" title="Email Link">
+            <i class="fa-solid fa-envelope"> </i>
+        </a>
+        <a href="https://www.linkedin.com/in/kimberley-parker-449a76217/" target="_blank" title="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin"> </i>
+        </a>
+        <a href="https://github.com/KimJaneParker" target="_blank" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        </div>
+        <p class="text-center mt-5">This project was coded buy Kimberley Parker, and it is 
+            <a href="https://github.com/KimJaneParker/portfolio-project">open-sourced</a>   </p>
+      </footer>
+      </div>
   </body>
 </html>
